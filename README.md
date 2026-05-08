@@ -1,8 +1,14 @@
 # Agentic Architecture Map
 
-**A living internal map of your AI agent system, with an append-only evolution log.**
+**A single document that tracks how your AI agent setup is wired — and a log of every change so you can see how it got that way.**
 
-If you've been using Claude Code (or any agent harness) seriously for more than a few months, you have the same problem:
+> **New to Claude Code?** [Claude Code](https://docs.anthropic.com/claude/code) is Anthropic's command-line AI agent. Once you start adding skills, hooks, and crons, the setup becomes a system you can lose track of. Start with [`claude-code-setup`](https://github.com/derekcedarbaum2/claude-code-setup) for the bigger picture. Vocabulary used here (skill, hook, MCP, cron, etc.) is defined in the [glossary](https://github.com/derekcedarbaum2/claude-code-setup/blob/main/GLOSSARY.md).
+
+---
+
+## The problem
+
+If you've been using Claude Code (or any AI agent setup) seriously for more than a few months, you have the same problem:
 
 - A skill broke last Tuesday and you can't remember which hook triggered it.
 - You added an MCP server six weeks ago and now you're not sure why.
